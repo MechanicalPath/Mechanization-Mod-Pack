@@ -1,0 +1,6 @@
+{
+    "name": "smashhammer",
+    "texture": "smashhammer",
+    "lore": ["Good For Crushing"],
+	"type":item
+}

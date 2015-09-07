@@ -1,0 +1,6 @@
+{
+    "name": "woodpulp",
+    "texture": "woodpulp",
+    "lore": ["Sloupy"],
+	"type":item
+}

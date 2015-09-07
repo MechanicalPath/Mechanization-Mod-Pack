@@ -1,0 +1,25 @@
+
+//based on diamond
+
+{   
+ "Yelloworium": {
+        "template": "fractal",
+        "block": "BigReactors:YelloriteOre",
+        "clusterSize": 7,
+        "numClusters": 60,
+        "chunkChance": 7200,
+        "minHeight": 0,
+        "veinHeight": 70,
+        "veinDiameter": 70,
+        "verticalDensity": 20,
+        "horizontalDensity": 10,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

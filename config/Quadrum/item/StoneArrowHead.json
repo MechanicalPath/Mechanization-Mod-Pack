@@ -1,0 +1,6 @@
+{
+    "name": "StoneArrowHead",
+    "texture": "StoneArrowHead",
+    "lore": ["Pointy"],
+	"type":item
+}

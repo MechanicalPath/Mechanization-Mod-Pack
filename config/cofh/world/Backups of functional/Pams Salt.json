@@ -1,0 +1,30 @@
+{
+
+"salt": {
+        "template": "fractal",
+        "block": "harvestcraft:salt",
+        "clusterSize": 9,
+        "numClusters": 530,
+        "chunkChance": 2400,
+        "minHeight": 25,
+        "veinHeight": 6,
+        "veinDiameter": 70,
+        "verticalDensity": 85,
+        "horizontalDensity": 10,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+
+
+
+
+
+
+
+}

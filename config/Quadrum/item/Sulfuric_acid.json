@@ -1,0 +1,6 @@
+{
+    "name": "sulphuric_acid",
+    "texture": "sulfuric acid",
+    "lore": ["Smells"],
+	"type":item
+}

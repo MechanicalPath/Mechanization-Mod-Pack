@@ -1,0 +1,6 @@
+{
+    "name": "SandyClayMix",
+    "texture": "SandyClayMix",
+    "lore": ["Good For Bricks"],
+	"type":item
+}

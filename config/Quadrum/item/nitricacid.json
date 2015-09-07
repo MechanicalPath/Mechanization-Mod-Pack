@@ -1,0 +1,6 @@
+{
+    "name": "nitric_acid",
+    "texture": "nitric acid",
+    "lore": ["Don't drink"],
+	"type":item
+}

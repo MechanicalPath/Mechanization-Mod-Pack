@@ -1,0 +1,6 @@
+{
+    "name": "PaperDryingFrame",
+    "texture": "PaperDryingFrame",
+    "lore": [""],
+	"type":item
+}

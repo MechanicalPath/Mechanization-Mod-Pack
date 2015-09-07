@@ -1,0 +1,43 @@
+{
+
+    "sulpur": {
+        "template": "fractal",
+        "block": "railcraft:ore",
+        "clusterSize": 12,
+        "numClusters": 160,
+        "chunkChance": 50,
+        "minHeight": 0,
+        "veinHeight": 12,
+        "veinDiameter": 160,
+        "verticalDensity": 20,
+        "horizontalDensity": 5,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+
+    "saltpeter": {
+        "template": "fractal",
+        "block": {"name": "railcraft:ore", "metadata" : 1},        "clusterSize": 12,
+        "numClusters": 160,
+        "chunkChance": 50,
+        "minHeight": 0,
+        "veinHeight": 12,
+        "veinDiameter": 160,
+        "verticalDensity": 20,
+        "horizontalDensity": 5,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

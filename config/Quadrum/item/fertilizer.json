@@ -1,0 +1,6 @@
+{
+    "name": "bagfertilizer",
+    "texture": "fertilizer",
+    "lore": ["Good For Plants"],
+	"type":item
+}

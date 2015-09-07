@@ -1,0 +1,166 @@
+{
+
+//Based on Iron
+
+"copper": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+        "block": {"name": "ThermalFoundation:Ore", "metadata" : 0},
+        "clusterSize": 8,
+        "numClusters": 110,
+        "chunkChance": 2000,
+        "minHeight": 0,
+        "veinHeight": 80,
+        "veinDiameter": 65,
+        "verticalDensity": 15,
+        "horizontalDensity": 15,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+
+//Based on Iron
+
+"tin": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+        "block": {"name": "ThermalFoundation:Ore", "metadata" : 1},
+        "clusterSize": 8,
+        "numClusters": 110,
+        "chunkChance": 2000,
+        "minHeight": 0,
+        "veinHeight": 80,
+        "veinDiameter": 65,
+        "verticalDensity": 15,
+        "horizontalDensity": 15,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+
+
+//based on lapis
+    "lead": {
+        "template": "fractal",
+        "block": {"name": "ThermalFoundation:Ore", "metadata" : 3},
+        "clusterSize": 6,
+        "numClusters": 100,
+        "chunkChance": 2000,
+        "minHeight": 0,
+        "veinHeight": 50,
+        "veinDiameter": 70,
+        "verticalDensity": 20,
+        "horizontalDensity": 10,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+
+//based on lapis
+    "Silver": {
+        "template": "fractal",
+        "block": {"name": "ThermalFoundation:Ore", "metadata" : 2},
+        "clusterSize": 6,
+        "numClusters": 100,
+        "chunkChance": 2000,
+        "minHeight": 0,
+        "veinHeight": 50,
+        "veinDiameter": 70,
+        "verticalDensity": 20,
+        "horizontalDensity": 10,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+
+//based on lapis
+
+    "nickel": {
+        "template": "fractal",
+        "block": {"name": "ThermalFoundation:Ore", "metadata" : 4},
+        "clusterSize": 6,
+        "numClusters": 100,
+        "chunkChance": 2100,
+        "minHeight": 0,
+        "veinHeight": 50,
+        "veinDiameter": 70,
+        "verticalDensity": 20,
+        "horizontalDensity": 10,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+
+//based on diamond
+
+    "Platinum": {
+        "template": "fractal",
+        "block": {"name": "ThermalFoundation:Ore", "metadata" : 5},
+        "clusterSize": 7,
+        "numClusters": 60,
+        "chunkChance": 3400,
+        "minHeight": 0,
+        "veinHeight": 70,
+        "veinDiameter": 70,
+        "verticalDensity": 20,
+        "horizontalDensity": 10,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+
+//based on diamond
+
+    "Infused": {
+        "template": "fractal",
+        "block": {"name": "ThermalFoundation:Ore", "metadata" : 6},
+        "clusterSize": 7,
+        "numClusters": 60,
+        "chunkChance": 3500,
+        "minHeight": 0,
+        "veinHeight": 70,
+        "veinDiameter": 70,
+        "verticalDensity": 20,
+        "horizontalDensity": 10,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+Immersive Enginering
+	Copper
+	Silver
+	Lead
+	Nickel
+	Bauxite
+
+BigReactors
+	YellowOrium
+
+Thermal Foundation
+	Copper
+	Tin
+	Lead
+	Silver
+	Nickel-Ferrus
+	Platinum-Shiney
+	Infused
+
+Chisel
+	Anethsite
+	Granite
+	Limestone
+	Marble
+	Diorite
+	
+Railcraft
+	Sulphur
+	Saltpeter
+
+Pams
+	salt	
+
+XXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXX
+
+ImmersiveEngineering:ore
+ImmersiveEngineering:ore:3
+ImmersiveEngineering:ore:2
+ImmersiveEngineering:ore:4
+ImmersiveEngineering:ore:1
+
+
+BigReactors:YelloriteOre
+
+
+ThermalFoundation:Ore
+ThermalFoundation:Ore:1
+ThermalFoundation:Ore:3
+ThermalFoundation:Ore:2
+ThermalFoundation:Ore:4
+ThermalFoundation:Ore:5
+ThermalFoundation:Ore:6
+
+chisel:andesite
+chisel:granite
+chisel:diorite
+chisel:marble
+chisel:limestone
+
+
+
+railcraft:ore
+railcraft:ore1
+
+
+harvestcraft:salt

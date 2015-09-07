@@ -1,0 +1,6 @@
+{
+    "name": "unfiredbrick",
+    "texture": "unfiredbrick",
+    "lore": ["More Modern Masonry"],
+	"type":item
+}

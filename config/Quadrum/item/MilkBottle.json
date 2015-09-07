@@ -1,0 +1,6 @@
+{
+    "name": "MilkBottle",
+    "texture": "MilkBottle",
+    "lore": [""],
+	"type":item
+}

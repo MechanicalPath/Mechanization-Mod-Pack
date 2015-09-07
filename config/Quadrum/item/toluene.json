@@ -1,0 +1,6 @@
+{
+    "name": "toluene",
+    "texture": "toluene",
+    "lore": ["Good Precursor"],
+	"type":item
+}

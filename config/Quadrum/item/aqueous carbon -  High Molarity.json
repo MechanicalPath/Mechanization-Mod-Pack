@@ -1,0 +1,6 @@
+{
+    "name": "aqueouscarbonHighMolarity",
+    "texture": "aqueouscarbon",
+    "lore": ["Pretty Heavy"],
+	"type":item
+}

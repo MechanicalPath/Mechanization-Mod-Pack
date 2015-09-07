@@ -1,0 +1,6 @@
+{
+    "name": "aqueous_carbon",
+    "texture": "aqueouscarbon",
+    "lore": ["Pretty Heavy"],
+	"type":item
+}

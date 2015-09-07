@@ -1,0 +1,34 @@
+//based on iron    
+{
+
+
+
+
+"Bauxite": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+        "block": {"name": "ImmersiveEngineering:ore", "metadata" : 1},
+        "clusterSize": 8,
+        "numClusters": 80,
+        "chunkChance": 2000,
+        "minHeight": 0,
+        "veinHeight": 80,
+        "veinDiameter": 65,
+        "verticalDensity": 15,
+        "horizontalDensity": 15,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+
+
+
+
+
+
+
+}

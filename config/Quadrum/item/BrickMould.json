@@ -1,0 +1,6 @@
+{
+    "name": "BrickMould",
+    "texture": "BrickMould",
+    "lore": [""],
+	"type":item
+}

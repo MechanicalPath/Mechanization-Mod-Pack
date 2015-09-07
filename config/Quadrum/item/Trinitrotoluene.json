@@ -1,0 +1,6 @@
+{
+    "name": "Trinitrotoluene",
+    "texture": "Trinitrotoluene",
+    "lore": ["Don't Drop It"],
+	"type":item
+}

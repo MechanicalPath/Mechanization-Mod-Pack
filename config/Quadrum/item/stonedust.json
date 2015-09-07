@@ -1,0 +1,6 @@
+{
+    "name": "stone_dust",
+    "texture": "stonedust3",
+    "lore": ["Good For Cement"],
+	"type":item
+}

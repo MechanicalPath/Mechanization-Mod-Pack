@@ -1,0 +1,6 @@
+{
+    "name": "knife",
+    "texture": "knife",
+    "lore": [""],
+	"type":item
+}

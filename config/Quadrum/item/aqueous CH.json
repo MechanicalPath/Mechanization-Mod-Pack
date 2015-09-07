@@ -1,0 +1,6 @@
+{
+    "name": "aqueousch",
+    "texture": "ch",
+    "lore": ["High Molarity"],
+	"type":item
+}
