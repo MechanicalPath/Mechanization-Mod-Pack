@@ -107,6 +107,10 @@ recipes.remove(<electrometrics:blockMachine>.withTag({electricTier: 0}));
 recipes.remove(<electrometrics:blockMachine:1>.withTag({electricTier: 1}));
 recipes.remove(<electrometrics:blockMachine:2>.withTag({electricTier: 2}));
 recipes.remove(<electrometrics:blockMachine:3>.withTag({electricTier: 3}));
+recipes.remove(<minecraft:arrow>);
+recipes.remove(<stefinusguns:Shotgunshell>);
+recipes.remove(<minecraft:fence>);
+
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
@@ -135,8 +139,20 @@ recipes.addShapeless(<Quadrum:CarbonGrains>, [<Quadrum:smashhammer>.reuse(), <or
 recipes.addShapeless(<Quadrum:CarbonGrainsBottle>, [<Quadrum:CarbonGrains>, <minecraft:glass_bottle>]);
 recipes.addShapeless(<minecraft:writable_book>, [<minecraft:book>, <ore:dyeBlack>, <Quadrum:Quil>]);
 recipes.addShapeless(<harvestcraft:freshwaterItem> * 4, [<minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
+recipes.addShapeless(<minecraft:tnt>, [<Quadrum:Trinitrotoluene>.transformReplace(<minecraft:glass_bottle>), <ThermalExpansion:material:512>]);
+recipes.addShapeless(<minecraft:gunpowder> * 4, [<ore:dustCharcoal>, <ore:dustSulfur>, <ore:dustSaltpeter>, <ore:dustSaltpeter>]);
+
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<FinderCompass:finder_compass>,
+ [[<minecraft:redstone>, <ore:ingotIron>, <minecraft:redstone>],
+  [<ore:ingotIron>, <minecraft:glass>, <ore:ingotIron>],
+  [<minecraft:redstone>, <ore:ingotIron>, <minecraft:redstone>]]);
+recipes.addShaped(<minecraft:fence> * 6,
+ [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+  [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+  [null, null, null]]);
+
 recipes.addShaped(<electrometrics:blockMachine>,
  [[<Railcraft:part.plate:2>, <minecraft:redstone>, <Railcraft:part.plate:2>],
   [<ore:nuggetTin>, <ore:nuggetTin>, <ore:nuggetTin>],
@@ -207,6 +223,11 @@ recipes.addShaped(<ThermalExpansion:material:512>,
  [[<Quadrum:smashhammer>, null, null],
   [<ore:logWood>, null, null],
   [null, null, null]]);
+
+recipes.addShaped(<stefinusguns:Shotgunshell>,
+ [[<ore:nuggetIron>, <ore:nuggetLead>, <ore:nuggetIron>],
+  [<ore:nuggetIron>, <minecraft:gunpowder>, <ore:nuggetIron>],
+  [<ore:nuggetIron>, <minecraft:gunpowder>, <ore:nuggetIron>]]);
 recipes.addShaped(<stefinusguns:M1911Ammo>,
  [[null, <ore:nuggetLead>, null],
   [<ThermalFoundation:material:8>, <minecraft:gunpowder>, <ThermalFoundation:material:8>],
@@ -295,19 +316,16 @@ recipes.addShaped(<stefinusguns:MGrip>,
  [[null, <ThermalFoundation:material:8>, null],
   [null, <ThermalFoundation:material:8>, null],
   [null, null, null]]);
-recipes.addShaped(<minecraft:gunpowder> * 4,
- [[<ore:dustCharcoal>, <ore:dustSulfur>, null],
-  [<ore:dustSaltpeter>, <ore:dustSaltpeter>, null],
-  [null, null, null]]);
+
 recipes.addShaped(<minecraft:gunpowder> * 4,
  [[<ore:dustCoal>, <ore:dustSulfur>, null],
   [<ore:dustSaltpeter>, <ore:dustSaltpeter>, null],
   [null, null, null]]);
-recipes.addShaped(<minecraft:torch> * 32,
+recipes.addShaped(<enviromine:firetorch> * 32,
  [[<minecraft:coal:1>, null, null],
   [<minecraft:stick>, null, null],
   [null, null, null]]);
-recipes.addShaped(<minecraft:torch> * 32,
+recipes.addShaped(<enviromine:firetorch> * 32,
  [[<minecraft:coal>, null, null],
   [<minecraft:stick>, null, null],
   [null, null, null]]);
@@ -323,10 +341,10 @@ recipes.addShaped(<chisel:torch10> * 32,
  [[<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>],
   [<minecraft:glass_pane>, <minecraft:coal>, <minecraft:glass_pane>],
   [null, <ThermalFoundation:material:8>, null]]);
-recipes.addShaped(<FinderCompass:finder_compass>,
- [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
-  [<minecraft:stone>, <minecraft:glass>, <minecraft:stone>],
-  [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
+//recipes.addShaped(<FinderCompass:finder_compass>,
+// [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
+//  [<minecraft:stone>, <minecraft:glass>, <minecraft:stone>],
+//  [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
 recipes.addShaped(<minecraft:saddle>,
  [[<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
   [<minecraft:string>, null, <minecraft:string>],
@@ -417,6 +435,7 @@ recipes.addShaped(<harvestcraft:presser>,
 
 //ADD QUANDRUM RECIPES
 
+
 recipes.addShaped(<Quadrum:StoneArrowHead> * 16,
  [[null, null, null],
   [null, <minecraft:stone>, null],
@@ -473,6 +492,17 @@ recipes.addShaped(<Quadrum:PaperDryingFrame>,
  [[null, <ore:plankWood>, null],
   [<ore:plankWood>, null, <ore:plankWood>],
   [null, <ore:plankWood>, null]]);
+recipes.addShaped(<minecraft:arrow>,
+ [[<ore:arrowhead>, null, null],
+  [<minecraft:stick>, null, null],
+  [<ore:fletching>, null, null]]);
 <ore:leather>.add(<Quadrum:SyntheticLeather>);
 <ore:leather>.add(<minecraft:leather>);
 val leather = <ore:leather>;
+val arrowhead = <ore:arrowhead>;
+val fletching = <ore:fletching>;
+<ore:arrowhead>.add(<Quadrum:WoodenArrowHead>);
+<ore:arrowhead>.add(<Quadrum:FlintArrowHead>);
+<ore:arrowhead>.add(<Quadrum:StoneArrowHead>);
+<ore:fletching>.add(<Quadrum:WoodFletching>);
+<ore:fletching>.add(<Quadrum:FeatherFletching>);
