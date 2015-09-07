@@ -1,0 +1,17 @@
+
+
+
+9/7/2015
+V 1.0.1
+
+#7 Cheaper fences
+#13 EM torches are not working with dynamic lights- Fixed
+#10 Shot gun sheels recipe Fixed
+#9 Turn off temperature - EM Removed
+#8 Arrow - Recipe Added
+#12 Torch Recipe Yeilds Enviornmine torches - Fixed
+#6 Gravel doesn't drop flint - Paused for now
+#5 Decrease stack sizes - Not Implemented
+#4 Enviornmine torches not placing - Fixed
+#3 Make Finding Compass more expensive - Done
+#1 TNT and Gunpowder Recipies not added - Fixed
