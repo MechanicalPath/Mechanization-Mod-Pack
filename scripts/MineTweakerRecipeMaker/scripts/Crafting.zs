@@ -110,7 +110,12 @@ recipes.remove(<electrometrics:blockMachine:3>.withTag({electricTier: 3}));
 recipes.remove(<minecraft:arrow>);
 recipes.remove(<stefinusguns:Shotgunshell>);
 recipes.remove(<minecraft:fence>);
-
+recipes.remove(<ore:stairWood>);
+recipes.remove(<minecraft:stone_stairs>);
+recipes.remove(<minecraft:brick_stairs>);
+recipes.remove(<minecraft:sandstone_stairs>);
+recipes.remove(<CarpentersBlocks:blockCarpentersStairs>);
+recipes.remove(<harvestcraft:wovencottonItem>);
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
@@ -122,7 +127,7 @@ recipes.remove(<minecraft:fence>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
-
+recipes.addShapeless(<harvestcraft:wovencottonItem>, [<minecraft:string>, <minecraft:string>, <minecraft:string>, <minecraft:string>,<minecraft:string>, <minecraft:string>, <minecraft:string>, <minecraft:string>]);
 recipes.addShapeless(<BigReactors:BRIngot:2>, [<ImmersiveEngineering:metal:20>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:20>, [<BigReactors:BRIngot:2>]);
 recipes.addShapeless(<minecraft:fire_charge> * 1, [<minecraft:gunpowder>, <ore:coal>]);
@@ -152,6 +157,47 @@ recipes.addShaped(<minecraft:fence> * 6,
  [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
   [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
   [null, null, null]]);
+recipes.addShaped(<minecraft:oak_stairs> * 8,
+ [[null, null, <minecraft:planks>],
+  [null, <minecraft:planks>, <minecraft:planks>],
+  [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
+recipes.addShaped(<minecraft:spruce_stairs> * 8,
+ [[null, null, <minecraft:planks:1>],
+  [null, <minecraft:planks:1>, <minecraft:planks:1>],
+  [<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>]]);
+recipes.addShaped(<minecraft:birch_stairs> * 8,
+ [[null, null, <minecraft:planks:2>],
+  [null, <minecraft:planks:2>, <minecraft:planks:2>],
+  [<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>]]);
+  recipes.addShaped(<minecraft:jungle_stairs> * 8,
+ [[null, null, <minecraft:planks:3>],
+  [null, <minecraft:planks:3>, <minecraft:planks:3>],
+  [<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>]]);
+recipes.addShaped(<minecraft:acacia_stairs> * 8,
+ [[null, null, <minecraft:planks:4>],
+  [null, <minecraft:planks:4>, <minecraft:planks:4>],
+  [<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>]]);
+recipes.addShaped(<minecraft:dark_oak_stairs> * 8,
+ [[null, null, <minecraft:planks:5>],
+  [null, <minecraft:planks:5>, <minecraft:planks:5>],
+  [<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]]);
+  
+recipes.addShaped(<minecraft:stone_stairs> * 8,
+ [[null, null, <ore:cobblestone>],
+  [null, <ore:cobblestone>, <ore:cobblestone>],
+  [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+recipes.addShaped(<minecraft:brick_stairs> * 8,
+ [[null, null, <minecraft:brick_block>],
+  [null, <minecraft:brick_block>, <minecraft:brick_block>],
+  [<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]]);
+recipes.addShaped(<minecraft:sandstone_stairs> * 8,
+ [[null, null, <ore:sandstone>],
+  [null, <ore:sandstone>, <ore:sandstone>],
+  [<ore:sandstone>, <ore:sandstone>, <ore:sandstone>]]);
+recipes.addShaped(<CarpentersBlocks:blockCarpentersStairs> * 8,
+ [[null, null, <CarpentersBlocks:blockCarpentersBlock>],
+  [null, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
+  [<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>]]);
 
 recipes.addShaped(<electrometrics:blockMachine>,
  [[<Railcraft:part.plate:2>, <minecraft:redstone>, <Railcraft:part.plate:2>],
@@ -439,25 +485,25 @@ recipes.addShaped(<harvestcraft:presser>,
 recipes.addShaped(<Quadrum:StoneArrowHead> * 16,
  [[null, null, null],
   [null, <minecraft:stone>, null],
-  [null, <Quadrum:knife>, null]]);
+  [null, <Quadrum:knife>.reuse(), null]]);
 recipes.addShaped(<Quadrum:WoodenArrowHead> * 8,
  [[null, null, null],
   [null, <ore:plankWood>, null],
-  [null, <Quadrum:knife>, null]]);
+  [null, <Quadrum:knife>.reuse(), null]]);
 recipes.addShaped(<Quadrum:FlintArrowHead> * 32,
  [[null, null, null],
   [null, <minecraft:flint>, null],
-  [null, <Quadrum:knife>, null]]);
+  [null, <Quadrum:knife>.reuse(), null]]);
 recipes.addShaped(<Quadrum:WoodFletching> * 8,
- [[null, <Quadrum:knife>, null],
+ [[null, <Quadrum:knife>.reuse(), null],
   [null, <ore:plankWood>, null],
   [null, null, null]]);
 recipes.addShaped(<Quadrum:FeatherFletching> * 32,
- [[null, <Quadrum:knife>, null],
+ [[null, <Quadrum:knife>.reuse(), null],
   [null, <minecraft:feather>, null],
   [null, null, null]]);
 recipes.addShaped(<Quadrum:Quil> * 16,
- [[null, <Quadrum:knife>, null],
+ [[null, <Quadrum:knife>.reuse(), null],
   [<minecraft:feather>, null, null],
   [null, null, null]]);
 recipes.addShaped(<Quadrum:knife>,
