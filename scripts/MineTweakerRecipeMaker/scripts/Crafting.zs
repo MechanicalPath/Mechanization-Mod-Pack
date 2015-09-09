@@ -138,7 +138,7 @@ recipes.addShapeless(<minecraft:slime_ball> * 1, [<Quadrum:ColugatedMilk>.transf
 recipes.addShapeless(<Quadrum:ColugatedFabric> * 1, [<Railcraft:fluid.creosote.bottle>.transformReplace(<minecraft:glass_bottle>), <ore:blockCloth>]);
 recipes.addShapeless(<Quadrum:ColugatedFabric> * 1, [<Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>), <ore:blockCloth>]);
 recipes.addShapeless(<Quadrum:unfiredbrick> * 4, [<Quadrum:BrickMould>.reuse(), <Quadrum:SandyClayMix>]);
-recipes.addShapeless(<minecraft:paper> * 4, [<Quadrum:PaperDryingFrame>.reuse(), <Quadrum:woodpulp>]);
+recipes.addShapeless(<minecraft:paper> * 4, [<Quadrum:PaperDryingFrame>.reuse(), <Quadrum:woodpulp>.transformReplace(<minecraft:glass_bottle>)]);
 recipes.addShapeless(<Quadrum:CarbonGrains>, [<Quadrum:smashhammer>.reuse(), <ore:coal>]);
 recipes.addShapeless(<Quadrum:CarbonGrains>, [<Quadrum:smashhammer>.reuse(), <ore:charcoal>]);
 recipes.addShapeless(<Quadrum:CarbonGrainsBottle>, [<Quadrum:CarbonGrains>, <minecraft:glass_bottle>]);
