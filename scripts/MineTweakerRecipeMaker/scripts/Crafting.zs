@@ -45,7 +45,6 @@ mods.immersiveengineering.Crusher.removeRecipe(<BigReactors:YelloriteOre>);
 mods.immersiveengineering.Crusher.removeRecipe(<BigReactors:BRIngot:4>);
 mods.immersiveengineering.Crusher.removeRecipe(<ImmersiveEngineering:ore:1>);
 mods.immersiveengineering.Crusher.removeRecipe(<ImmersiveEngineering:metal:11>);
-recipes.remove(<minecraft:map>);
 recipes.remove(<minecraft:gunpowder>);
 recipes.remove(<minecraft:hopper>);
 recipes.remove(<minecraft:glass_bottle>);
