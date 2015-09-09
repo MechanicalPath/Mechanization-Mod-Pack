@@ -59,7 +59,6 @@ recipes.remove(<mobdropcrops:Rotten Seed>);
 recipes.remove(<mobdropcrops:Slime Seed>);
 recipes.remove(<mobdropcrops:Tear Seed>);
 recipes.remove(<mobdropcrops:Rotten Seed>);
-recipes.remove(<enviromine:freezer>);
 mods.chisel.Groups.removeGroup("torch"); 
 recipes.remove(<BigReactors:BRIngot:2>);
 furnace.remove(<BigReactors:BRIngot:2>);
@@ -366,11 +365,11 @@ recipes.addShaped(<minecraft:gunpowder> * 4,
  [[<ore:dustCoal>, <ore:dustSulfur>, null],
   [<ore:dustSaltpeter>, <ore:dustSaltpeter>, null],
   [null, null, null]]);
-recipes.addShaped(<enviromine:firetorch> * 32,
+recipes.addShaped(<minecraft:torch> * 32,
  [[<minecraft:coal:1>, null, null],
   [<minecraft:stick>, null, null],
   [null, null, null]]);
-recipes.addShaped(<enviromine:firetorch> * 32,
+recipes.addShaped(<minecraft:torch> * 32,
  [[<minecraft:coal>, null, null],
   [<minecraft:stick>, null, null],
   [null, null, null]]);
@@ -402,10 +401,6 @@ recipes.addShaped(<minecraft:hopper>,
  [[null, null, null],
   [<minecraft:iron_ingot>, <minecraft:chest>, <minecraft:iron_ingot>],
   [null, <minecraft:iron_ingot>, null]]);
-recipes.addShaped(<enviromine:freezer>,
- [[<minecraft:iron_ingot>, <minecraft:ice>, <minecraft:iron_ingot>],
-  [<minecraft:ice>, <enviromine:esky>, <minecraft:ice>],
-  [<minecraft:iron_ingot>, <minecraft:ice>, <minecraft:iron_ingot>]]);
 mods.immersiveengineering.Crusher.addRecipe(<ImmersiveEngineering:metal:9> * 4, <minecraft:gold_ore>, 6000, <ThermalFoundation:material:20>, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:4> * 18, <minecraft:lapis_ore>, 6000, <minecraft:dye:4>, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:4> * 18, <Railcraft:ore:4>, 6000, <minecraft:dye:4>, 0.1);
