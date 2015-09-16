@@ -476,6 +476,7 @@ recipes.addShaped(<harvestcraft:presser>,
  [[<ore:nuggetIron>, <minecraft:piston>, <ore:nuggetIron>],
   [<ore:nuggetIron>, null, <ore:nuggetIron>],
   [<ore:nuggetIron>, <minecraft:piston>, <ore:nuggetIron>]]);
+mods.chisel.Groups.addVariation("concrete", <ImmersiveEngineering:stoneDecoration:4>);
 // ================================================================================
 
 //ADD QUANDRUM RECIPES
@@ -551,3 +552,7 @@ val fletching = <ore:fletching>;
 <ore:arrowhead>.add(<Quadrum:StoneArrowHead>);
 <ore:fletching>.add(<Quadrum:WoodFletching>);
 <ore:fletching>.add(<Quadrum:FeatherFletching>);
+recipes.addShaped(<Quadrum:stone_dust>,
+ [[<Quadrum:smashhammer>.reuse(), null, null],
+  [<ore:stone>, null, null],
+  [null, null, null]]);
