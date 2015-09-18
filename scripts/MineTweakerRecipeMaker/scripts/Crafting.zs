@@ -554,5 +554,5 @@ val fletching = <ore:fletching>;
 <ore:fletching>.add(<Quadrum:FeatherFletching>);
 recipes.addShaped(<Quadrum:stone_dust>,
  [[<Quadrum:smashhammer>.reuse(), null, null],
-  [<ore:stone>, null, null],
+  [<ore:cobblestone>, null, null],
   [null, null, null]]);
