@@ -366,7 +366,7 @@ recipes.addShaped(<minecraft:gunpowder> * 4,
  [[<ore:dustCoal>, <ore:dustSulfur>, null],
   [<ore:dustSaltpeter>, <ore:dustSaltpeter>, null],
   [null, null, null]]);
-recipes.addShaped(<mincraft:torch> * 16,
+recipes.addShaped(<minecraft:torch> * 16,
  [[<minecraft:coal:1>, null, null],
   [<minecraft:stick>, null, null],
   [null, null, null]]);
