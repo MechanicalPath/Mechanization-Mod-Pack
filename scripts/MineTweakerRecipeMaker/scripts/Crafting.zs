@@ -115,6 +115,7 @@ recipes.remove(<minecraft:brick_stairs>);
 recipes.remove(<minecraft:sandstone_stairs>);
 recipes.remove(<CarpentersBlocks:blockCarpentersStairs>);
 recipes.remove(<harvestcraft:wovencottonItem>);
+recipes.remove(<Railcraft:part.tie>);
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
@@ -126,6 +127,9 @@ recipes.remove(<harvestcraft:wovencottonItem>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+
+recipes.addShapeless(<Railcraft:fluid.creosote.bottle>, [<ImmersiveEngineering:fluidContainers>]);
+recipes.addShapeless(<ImmersiveEngineering:fluidContainers>, [<Railcraft:fluid.creosote.bottle>]);
 recipes.addShapeless(<harvestcraft:wovencottonItem>, [<minecraft:string>, <minecraft:string>, <minecraft:string>, <minecraft:string>,<minecraft:string>, <minecraft:string>, <minecraft:string>, <minecraft:string>]);
 recipes.addShapeless(<BigReactors:BRIngot:2>, [<ImmersiveEngineering:metal:20>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:20>, [<BigReactors:BRIngot:2>]);
@@ -148,6 +152,16 @@ recipes.addShapeless(<minecraft:gunpowder> * 4, [<ore:dustCharcoal>, <ore:dustSu
 
 // ================================================================================
 //#MARKER ADD SHAPED
+
+recipes.addShaped(<Railcraft:part.tie>,
+ [[null, <Railcraft:fluid.creosote.bottle>.transformReplace(<minecraft:glass_bottle>), null],
+  [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+  [null, null, null]]);
+recipes.addShaped(<Railcraft:part.tie>,
+ [[null, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>), null],
+  [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+  [null, null, null]]);
+
 recipes.addShaped(<FinderCompass:finder_compass>,
  [[<minecraft:redstone>, <ore:ingotIron>, <minecraft:redstone>],
   [<ore:ingotIron>, <minecraft:glass>, <ore:ingotIron>],
@@ -481,7 +495,7 @@ mods.chisel.Groups.addVariation("concrete", <ImmersiveEngineering:stoneDecoratio
 
 //ADD QUANDRUM RECIPES
 
-
+recipes.addShapeless(<minecraft:leather>, [<Quadrum:SyntheticLeather>]);
 recipes.addShaped(<Quadrum:StoneArrowHead> * 16,
  [[null, null, null],
   [null, <minecraft:stone>, null],
