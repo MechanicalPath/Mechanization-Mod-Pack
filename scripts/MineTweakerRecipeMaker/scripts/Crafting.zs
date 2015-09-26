@@ -508,7 +508,7 @@ mods.chisel.Groups.addVariation("concrete", <ImmersiveEngineering:stoneDecoratio
 // ================================================================================
 
 //ADD QUANDRUM RECIPES
-recipes.addShapeless(<minecraft:bonemeal> * 32, [<Quadrum:bagfertilizer>]);
+recipes.addShapeless(<minecraft:dye:15> * 32, [<Quadrum:bagfertilizer>]);
 recipes.addShapeless(<Quadrum:bagfertilizer>, [<ore:dustSaltpeter>, <ore:dustSaltpeter>, <ore:dustSaltpeter>, <ore:dustWwood>]);
 recipes.addShapeless(<minecraft:leather>, [<Quadrum:SyntheticLeather>]);
 recipes.addShaped(<Quadrum:StoneArrowHead> * 16,
