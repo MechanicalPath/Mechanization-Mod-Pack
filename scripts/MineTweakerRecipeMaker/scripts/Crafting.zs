@@ -144,7 +144,7 @@ recipes.addShapeless(<minecraft:slime_ball> * 1, [<Quadrum:ColugatedMilk>.transf
 recipes.addShapeless(<Quadrum:ColugatedFabric> * 1, [<Railcraft:fluid.creosote.bottle>.transformReplace(<minecraft:glass_bottle>), <ore:blockCloth>]);
 recipes.addShapeless(<Quadrum:ColugatedFabric> * 1, [<Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>), <ore:blockCloth>]);
 recipes.addShapeless(<Quadrum:unfiredbrick> * 4, [<Quadrum:BrickMould>.reuse(), <Quadrum:SandyClayMix>]);
-recipes.addShapeless(<minecraft:paper> * 4, [<Quadrum:PaperDryingFrame>.reuse(), <Quadrum:woodpulp>.transformReplace(<minecraft:glass_bottle>)]);
+recipes.addShapeless(<minecraft:paper> * 1, [<Quadrum:PaperDryingFrame>.reuse(), <Quadrum:woodpulp>.transformReplace(<minecraft:glass_bottle>)]);
 recipes.addShapeless(<Quadrum:CarbonGrains>, [<Quadrum:smashhammer>.reuse(), <ore:coal>]);
 recipes.addShapeless(<Quadrum:CarbonGrains>, [<Quadrum:smashhammer>.reuse(), <ore:charcoal>]);
 recipes.addShapeless(<Quadrum:CarbonGrainsBottle>, [<Quadrum:CarbonGrains>, <minecraft:glass_bottle>]);
@@ -288,10 +288,10 @@ recipes.addShaped(<Quadrum:sulphuric_acid>,
   [null, null, null],
   [null, null, null]]);
 furnace.addRecipe(<Quadrum:toluene>, <Quadrum:woodpulp>);
-recipes.addShaped(<Quadrum:woodpulp> * 4,
- [[null, <minecraft:potion>, null],
-  [<minecraft:potion>, <ThermalExpansion:material:512>, <minecraft:potion>],
-  [null, <minecraft:potion>, null]]);
+recipes.addShaped(<Quadrum:woodpulp>,
+ [[null, null, null],
+  [<minecraft:potion>, <ThermalExpansion:material:512>, null],
+  [null, null, null]]);
 recipes.addShaped(<ThermalExpansion:material:512>,
  [[<Quadrum:smashhammer>, null, null],
   [<ore:logWood>, null, null],
@@ -511,23 +511,23 @@ mods.chisel.Groups.addVariation("concrete", <ImmersiveEngineering:stoneDecoratio
 recipes.addShapeless(<minecraft:dye:15> * 32, [<Quadrum:bagfertilizer>]);
 recipes.addShapeless(<Quadrum:bagfertilizer>, [<ore:dustSaltpeter>, <ore:dustSaltpeter>, <ore:dustSaltpeter>, <ore:dustWwood>]);
 recipes.addShapeless(<minecraft:leather>, [<Quadrum:SyntheticLeather>]);
-recipes.addShaped(<Quadrum:StoneArrowHead> * 16,
+recipes.addShaped(<Quadrum:StoneArrowHead> * 8,
  [[null, null, null],
   [null, <minecraft:stone>, null],
   [null, <Quadrum:knife>.reuse(), null]]);
-recipes.addShaped(<Quadrum:WoodenArrowHead> * 8,
+recipes.addShaped(<Quadrum:WoodenArrowHead> * 4,
  [[null, null, null],
   [null, <ore:plankWood>, null],
   [null, <Quadrum:knife>.reuse(), null]]);
-recipes.addShaped(<Quadrum:FlintArrowHead> * 32,
+recipes.addShaped(<Quadrum:FlintArrowHead> * 16,
  [[null, null, null],
   [null, <minecraft:flint>, null],
   [null, <Quadrum:knife>.reuse(), null]]);
-recipes.addShaped(<Quadrum:WoodFletching> * 8,
+recipes.addShaped(<Quadrum:WoodFletching> * 4,
  [[null, <Quadrum:knife>.reuse(), null],
   [null, <ore:plankWood>, null],
   [null, null, null]]);
-recipes.addShaped(<Quadrum:FeatherFletching> * 32,
+recipes.addShaped(<Quadrum:FeatherFletching> * 16,
  [[null, <Quadrum:knife>.reuse(), null],
   [null, <minecraft:feather>, null],
   [null, null, null]]);
