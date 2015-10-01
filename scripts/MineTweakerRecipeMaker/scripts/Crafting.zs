@@ -63,6 +63,8 @@ recipes.remove(<mobdropcrops:Rotten Seed>);
 mods.chisel.Groups.removeGroup("torch"); 
 recipes.remove(<BigReactors:BRIngot:2>);
 furnace.remove(<BigReactors:BRIngot:2>);
+
+/*
 recipes.remove(<stefinusguns:WGrip>);
 recipes.remove(<stefinusguns:MGrip>);
 recipes.remove(<stefinusguns:RLBarrel>);
@@ -82,6 +84,8 @@ recipes.remove(<stefinusguns:M14Ammo>);
 recipes.remove(<stefinusguns:P90 Clip>);
 recipes.remove(<stefinusguns:MP7Ammo>);
 recipes.remove(<stefinusguns:M1911Ammo>);
+*/
+
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 8);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 6);
 recipes.remove(<Railcraft:machine.alpha:12>);
@@ -107,7 +111,7 @@ recipes.remove(<electrometrics:blockMachine:1>.withTag({electricTier: 1}));
 recipes.remove(<electrometrics:blockMachine:2>.withTag({electricTier: 2}));
 recipes.remove(<electrometrics:blockMachine:3>.withTag({electricTier: 3}));
 recipes.remove(<minecraft:arrow>);
-recipes.remove(<stefinusguns:Shotgunshell>);
+//recipes.remove(<stefinusguns:Shotgunshell>);
 recipes.remove(<minecraft:fence>);
 recipes.remove(<ore:stairWood>);
 recipes.remove(<minecraft:stone_stairs>);
@@ -297,6 +301,7 @@ recipes.addShaped(<ThermalExpansion:material:512>,
   [<ore:logWood>, null, null],
   [null, null, null]]);
 
+/*
 recipes.addShaped(<stefinusguns:Shotgunshell>,
  [[<ore:nuggetIron>, <ore:nuggetLead>, <ore:nuggetIron>],
   [<ore:nuggetIron>, <minecraft:gunpowder>, <ore:nuggetIron>],
@@ -390,6 +395,8 @@ recipes.addShaped(<stefinusguns:MGrip>,
   [null, <ThermalFoundation:material:8>, null],
   [null, null, null]]);
 
+*/
+  
 recipes.addShaped(<minecraft:gunpowder> * 4,
  [[<ore:dustCoal>, <ore:dustSulfur>, null],
   [<ore:dustSaltpeter>, <ore:dustSaltpeter>, null],
