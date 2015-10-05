@@ -134,9 +134,13 @@ recipes.remove(<ThermalExpansion:Tank:1>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<Railcraft:fluid.creosote.bottle>, [<Railcraft:fluid.creosote.bucket>, <minecraft:glass_bottle>]);
+recipes.addShapeless(<ImmersiveEngineering:fluidContainers>, [<ImmersiveEngineering:fluidContainers:1>, <minecraft:glass_bottle>]);
 
-recipes.addShapeless(<Railcraft:fluid.creosote.bottle>, [<ImmersiveEngineering:fluidContainers>]);
-recipes.addShapeless(<ImmersiveEngineering:fluidContainers>, [<Railcraft:fluid.creosote.bottle>]);
+recipes.addShapeless(<ImmersiveEngineering:fluidContainers:1>, [<Railcraft:fluid.creosote.bottle>.transformReplace(<minecraft:glass_bottle>), <minecraft:bucket>]);
+recipes.addShapeless(<Railcraft:fluid.creosote.bucket>, [<ImmersiveEngineering:fluidContainers>, <minecraft:bucket>]);
+//recipes.addShapeless(<Railcraft:fluid.creosote.bottle> * 1, [<ImmersiveEngineering:fluidContainers> * 1]);
+//recipes.addShapeless(<ImmersiveEngineering:fluidContainers>, [<Railcraft:fluid.creosote.bottle>]);
 recipes.addShapeless(<harvestcraft:wovencottonItem>, [<minecraft:string>, <minecraft:string>, <minecraft:string>, <minecraft:string>,<minecraft:string>, <minecraft:string>, <minecraft:string>, <minecraft:string>]);
 recipes.addShapeless(<BigReactors:BRIngot:2>, [<ImmersiveEngineering:metal:20>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:20>, [<BigReactors:BRIngot:2>]);
